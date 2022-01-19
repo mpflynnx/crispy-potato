@@ -1,0 +1,25 @@
+*.pyc
+*.egg-info
+.coverage
+.tox
+
+build
+dist
+
+# Sphinx documentation
+docs/build/
+
+#Virtualenvs
+ENV*
+
+# Coverage
+.coveralls.yml
+htmlcov
+
+# Node stuff from all-contributors
+node_modules
+package.json
+yarn.lock
+
+# For secrets
+.env
