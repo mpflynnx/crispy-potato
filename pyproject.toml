@@ -66,6 +66,7 @@ addopts = "-v -Wdefault --cov=deezer"
 version_toml = "pyproject.toml:tool.poetry.version"
 version_variable = "deezer/__init__.py:__version__"
 branch = "main"
+upload_to_repository = "false"
 build_command = "pip install poetry && poetry build"
 
 [tool.isort]
